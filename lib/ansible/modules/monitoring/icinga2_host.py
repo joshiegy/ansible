@@ -19,7 +19,7 @@ module: icinga2_host
 short_description: Manage a host in Icinga2
 description:
    - "Add or remove a host to Icinga2 through the API."
-   - "See U(https://www.icinga.com/docs/icinga2/latest/doc/12-icinga2-api/)"
+   - "See U(https://www.icinga.com/docs/icinga2/latest/doc/12-icinga2-api/)"https://stash.iis.se/projects/DRIFT/repos/ansible/compare/commits?sourceBranch=refs/heads/optimize
 version_added: "2.5"
 author: "Jurgen Brand (@t794104)"
 options:
@@ -101,7 +101,7 @@ options:
 EXAMPLES = '''
 - name: Add host to icinga
   icinga_host:
-    url: "https://icinga2.example.co,m"
+    url: "https://icinga2.example.com"
     url_username: "ansible"
     url_password: "a_secret"
     state: present
